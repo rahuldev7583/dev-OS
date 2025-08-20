@@ -2,5 +2,17 @@
 name = "dev_os"
 version = "0.1.0"
 edition = "2018"
+authors = ["Rahul Dev <rahuldev7583@gmail.com>"]
 
 [dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[[bin]]
+name = "dev_os"
+test = false
+bench = false
