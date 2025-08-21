@@ -5,6 +5,7 @@ edition = "2018"
 authors = ["Rahul Dev <rahuldev7583@gmail.com>"]
 
 [dependencies]
+bootloader = "0.9"
 
 [profile.dev]
 panic = "abort"
